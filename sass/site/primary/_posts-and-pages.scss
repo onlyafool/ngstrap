@@ -1,14 +1,3 @@
-.site-content {
-  @include make-row();
-
-  .content-area {
-    @include make-md-column(9);
-  }
-
-  .widget-area {
-    @include make-md-column(3);
-  }
-}
 
 .sticky {
 	display: block;
@@ -38,6 +27,26 @@
 	clear: both;
 	margin: 0 0 1.5em;
 }
+
+/* Bootstrap Grid */
+.site-content {
+  @include make-row();
+  word-break: break-word;
+  width: 100%;
+
+  .content-area {
+    @include make-md-column(9);
+  }
+
+  .widget-area {
+    @include make-md-column(3);
+  }
+
+  .content-area-full {
+    @include make-md-column(12);
+  }
+}
+
 
 /*  Post Meta */
 .entry-meta,

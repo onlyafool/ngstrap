@@ -8196,31 +8196,6 @@ button.close {
 /*--------------------------------------------------------------
 ## Posts and pages
 --------------------------------------------------------------*/
-.site-content {
-  margin-left: -15px;
-  margin-right: -15px;
-  content: "";
-  display: table;
-  table-layout: fixed; }
-  .site-content .content-area {
-    position: relative;
-    min-height: 1px;
-    padding-left: 15px;
-    padding-right: 15px; }
-    @media (min-width: 992px) {
-      .site-content .content-area {
-        float: left;
-        width: 75%; } }
-  .site-content .widget-area {
-    position: relative;
-    min-height: 1px;
-    padding-left: 15px;
-    padding-right: 15px; }
-    @media (min-width: 992px) {
-      .site-content .widget-area {
-        float: left;
-        width: 25%; } }
-
 .sticky {
   display: block; }
 
@@ -8243,6 +8218,43 @@ button.close {
 .page-links {
   clear: both;
   margin: 0 0 1.5em; }
+
+/* Bootstrap Grid */
+.site-content {
+  margin-left: -15px;
+  margin-right: -15px;
+  content: "";
+  display: table;
+  table-layout: fixed;
+  word-break: break-word;
+  width: 100%; }
+  .site-content .content-area {
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px; }
+    @media (min-width: 992px) {
+      .site-content .content-area {
+        float: left;
+        width: 75%; } }
+  .site-content .widget-area {
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px; }
+    @media (min-width: 992px) {
+      .site-content .widget-area {
+        float: left;
+        width: 25%; } }
+  .site-content .content-area-full {
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px; }
+    @media (min-width: 992px) {
+      .site-content .content-area-full {
+        float: left;
+        width: 100%; } }
 
 /*  Post Meta */
 .entry-meta,
