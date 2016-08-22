@@ -1,0 +1,23 @@
+{
+  "name": "ngstrap",
+  "version": "1.0.0",
+  "homepage": "",
+  "description": "Bootstrap3 angular WordPress theme",
+  "moduleType": [
+    "node"
+  ],
+  "authors": [
+    "KMK"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass": "latest",
+    "fontawesome": "latest"
+  }
+}
