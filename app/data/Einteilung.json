@@ -1,0 +1,221 @@
+	{
+		"name": "Einteilung",
+		"records": [
+			{
+				"Sortnr": "5",
+				"Kategoriename": "Feinhaarpinsel",
+				"Typ": "Pinsel",
+				"Bild": "\/Produktgruppen\/Feinhaarpinsel.jpg"
+			},
+			{
+				"Sortnr": "10",
+				"Kategoriename": "Feinborstpinsel",
+				"Typ": "Pinsel",
+				"Bild": "\/Produktgruppen\/Feinborstpinsel.jpg"
+			},
+			{
+				"Sortnr": "11",
+				"Kategoriename": "Feinborstpinsel",
+				"Typ": "Pinsel",
+				"Bild": "\/Produktgruppen\/Feinborstpinsel.jpg"
+			},
+			{
+				"Sortnr": "15",
+				"Kategoriename": "Flachpinsel",
+				"Typ": "Pinsel",
+				"Bild": "\/Produktgruppen\/Flachpinsel.jpg"
+			},
+			{
+				"Sortnr": "16",
+				"Kategoriename": "Flachpinsel",
+				"Typ": "Pinsel",
+				"Bild": "\/Produktgruppen\/Flachpinsel.jpg"
+			},
+			{
+				"Sortnr": "18",
+				"Kategoriename": "Spezialwerkzeug",
+				"Typ": "Pinsel",
+				"Bild": "\/Produktgruppen\/Spezialwerkzeug.jpg"
+			},
+			{
+				"Sortnr": "20",
+				"Kategoriename": "Ringpinsel",
+				"Typ": "Pinsel",
+				"Bild": "\/Produktgruppen\/Ringpinsel.jpg"
+			},
+			{
+				"Sortnr": "21",
+				"Kategoriename": "Ringpinsel",
+				"Typ": "Pinsel",
+				"Bild": "\/Produktgruppen\/Ringpinsel.jpg"
+			},
+			{
+				"Sortnr": "25",
+				"Kategoriename": "Deckenbürsten",
+				"Typ": "Bürsten",
+				"Bild": "\/Produktgruppen\/Deckenbuersten.jpg"
+			},
+			{
+				"Sortnr": "30",
+				"Kategoriename": "Flächenstreicher",
+				"Typ": "Bürsten",
+				"Bild": "\/Produktgruppen\/Flaechenstreicher.jpg"
+			},
+			{
+				"Sortnr": "31",
+				"Kategoriename": "Flächenstreicher",
+				"Typ": "Bürsten",
+				"Bild": "\/Produktgruppen\/Flaechenstreicher.jpg"
+			},
+			{
+				"Sortnr": "35",
+				"Kategoriename": "Heizkörperpinsel",
+				"Typ": "Pinsel",
+				"Bild": "\/Produktgruppen\/Heizkoerperpinsel.jpg"
+			},
+			{
+				"Sortnr": "38",
+				"Kategoriename": "Fassadenpinsel",
+				"Typ": "Pinsel",
+				"Bild": "\/Produktgruppen\/Fassadenpinsel.jpg"
+			},
+			{
+				"Sortnr": "40",
+				"Kategoriename": "Abstäuber und Tapezierbürsten",
+				"Typ": "Bürsten",
+				"Bild": "\/Produktgruppen\/Abstaeuber.jpg"
+			},
+			{
+				"Sortnr": "41",
+				"Kategoriename": "Abstäuber und Tapezierbürsten",
+				"Typ": "Bürsten",
+				"Bild": "\/Produktgruppen\/Abstaeuber.jpg"
+			},
+			{
+				"Sortnr": "45",
+				"Kategoriename": "Winkelpinsel und Quäste",
+				"Typ": "Pinsel",
+				"Bild": "\/Produktgruppen\/Winkelpinsel.jpg"
+			},
+			{
+				"Sortnr": "46",
+				"Kategoriename": "Winkelpinsel und Quäste",
+				"Typ": "Pinsel",
+				"Bild": "\/Produktgruppen\/Winkelpinsel.jpg"
+			},
+			{
+				"Sortnr": "52",
+				"Kategoriename": "Flächenstreicher",
+				"Typ": "Bürsten",
+				"Bild": "\/Produktgruppen\/Flaechenstreicher.jpg"
+			},
+			{
+				"Sortnr": "63",
+				"Kategoriename": "Farbroller",
+				"Typ": "Farbroller\/Zubehör",
+				"Bild": "\/Produktgruppen\/Farbroller.jpg"
+			},
+			{
+				"Sortnr": "64",
+				"Kategoriename": "Farbroller",
+				"Typ": "Farbroller\/Zubehör",
+				"Bild": "\/Produktgruppen\/Farbroller.jpg"
+			},
+			{
+				"Sortnr": "65",
+				"Kategoriename": "Farbroller",
+				"Typ": "Farbroller\/Zubehör",
+				"Bild": "\/Produktgruppen\/Farbroller.jpg"
+			},
+			{
+				"Sortnr": "66",
+				"Kategoriename": "Farbroller",
+				"Typ": "Farbroller\/Zubehör",
+				"Bild": "\/Produktgruppen\/Farbroller.jpg"
+			},
+			{
+				"Sortnr": "67",
+				"Kategoriename": "Farbroller",
+				"Typ": "Farbroller\/Zubehör",
+				"Bild": "\/Produktgruppen\/Farbroller.jpg"
+			},
+			{
+				"Sortnr": "68",
+				"Kategoriename": "Farbroller",
+				"Typ": "Farbroller\/Zubehör",
+				"Bild": "\/Produktgruppen\/Farbroller.jpg"
+			},
+			{
+				"Sortnr": "69",
+				"Kategoriename": "Farbroller",
+				"Typ": "Farbroller\/Zubehör",
+				"Bild": "\/Produktgruppen\/Farbroller.jpg"
+			},
+			{
+				"Sortnr": "70",
+				"Kategoriename": "Feinborstpinsel",
+				"Typ": "Pinsel",
+				"Bild": "\/Produktgruppen\/Feinborstpinsel.jpg"
+			},
+			{
+				"Sortnr": "2",
+				"Kategoriename": "Lösemittelbasierende Lacke & Lasuren",
+				"Typ": "Anwendungen",
+				"Bild": "#FF0000"
+			},
+			{
+				"Sortnr": "3",
+				"Kategoriename": "Wasserbasierende Lacke & Lasuren",
+				"Typ": "Anwendungen",
+				"Bild": "#127DB3"
+			},
+			{
+				"Sortnr": "5",
+				"Kategoriename": "Dispersionsfarben",
+				"Typ": "Anwendungen",
+				"Bild": "#FFDD00"
+			},
+			{
+				"Sortnr": "7",
+				"Kategoriename": "Mineralfarben",
+				"Typ": "Anwendungen",
+				"Bild": "#FFAA66"
+			},
+			{
+				"Sortnr": "11",
+				"Kategoriename": "Rostschutzfarbe",
+				"Typ": "Anwendungen",
+				"Bild": null
+			},
+			{
+				"Sortnr": "13",
+				"Kategoriename": "2K-Material",
+				"Typ": "Anwendungen",
+				"Bild": null
+			},
+			{
+				"Sortnr": "17",
+				"Kategoriename": "Beize",
+				"Typ": "Anwendungen",
+				"Bild": null
+			},
+			{
+				"Sortnr": "19",
+				"Kategoriename": "Künstlerpinsel",
+				"Typ": "Anwendungen",
+				"Bild": null
+			},
+			{
+				"Sortnr": "23",
+				"Kategoriename": "Tapezieren",
+				"Typ": "Anwendungen",
+				"Bild": null
+			},
+			{
+				"Sortnr": "29",
+				"Kategoriename": "Sonstiges",
+				"Typ": "Anwendungen",
+				"Bild": null
+			}
+		]
+	}

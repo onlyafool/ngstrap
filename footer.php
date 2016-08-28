@@ -14,15 +14,58 @@
 		</div><!-- #content -->
 	</div><!-- container -->
 
-	<footer id="colophon" class="site-footer" role="contentinfo">
-		<div class="container">
-			<div class="site-info">
-				<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'ngstrap' ) ); ?>"><?php printf( esc_html__( 'Proudly powered by %s', 'ngstrap' ), 'WordPress' ); ?></a>
-				<span class="sep"> | </span>
-				<?php printf( esc_html__( 'Theme: %1$s by %2$s.', 'ngstrap' ), 'ngstrap', '<a href="http://www.kohlmann-medienkontor.de" rel="designer">KMK</a>' ); ?>
-			</div><!-- .site-info -->
-		</div><!-- container -->
-	</footer><!-- #colophon -->
+<!-- Footer start -->
+<footer id="footer" class="footer footer2">
+	<div class="container">
+
+		<div class="row">
+
+			<div class="col-sm-8 col-xs-12 footer-widget">
+				<?php dynamic_sidebar( 'footer-1' ); ?>
+				<div class="col-sm-4">
+					<img class="img-responsive" src="<?php echo bloginfo('template_directory'); ?>/images/Wistoba-App.jpg" alt="">
+				</div>
+				<div class="col-sm-4">
+					<div class="img-container">
+						<h5>Wistoba-App im Play Store</h5>
+						<img class="img-responsive" src="<?php echo bloginfo('template_directory'); ?>/images/qrcode_wistoba_playstore.jpg" alt="">
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="img-container">
+						<h5>Wistoba-App im Apple App Store</h5>
+						<img class="img-responsive img-footer" src="<?php echo bloginfo('template_directory'); ?>/images/qrcode_wistoba_appstore.jpg" alt="">
+					</div>
+				</div>
+
+			</div>
+
+			<div class="col-sm-3 col-xs-12 footer-widget">
+				<?php dynamic_sidebar( 'footer-2' ); ?>
+			</div>
+
+
+		</div><!-- Row end -->
+	</div><!-- Container end -->
+</footer><!-- Footer end -->
+
+
+<!-- Footer start -->
+<section id="copyright" class="copyright angle">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 text-center">
+				<div class="copyright-info">
+					<span>&copy; Copyright 2016 - Wistoba Pinselfabrik Wilhelm Stollberg GmbH & Co. KG </span>
+				</div>
+			</div>
+		</div><!--/ Row end -->
+		<div id="back-to-top" data-spy="affix" data-offset-top="10" class="back-to-top affix">
+			<button class="btn btn-primary" title="Back to Top"><i class="fa fa-angle-double-up"></i></button>
+		</div>
+	</div><!--/ Container end -->
+</section><!--/ Footer end -->
+
 </div><!-- #page -->
 
 <?php wp_footer(); ?>

@@ -1,0 +1,97 @@
+    <div class="well">
+      <form class="form-inline col-md-offset-5">
+
+          <div class="form-group">
+            <div class="input-group">
+              <div class="input-group-addon"><span class="fa fa-eye"></span></span ></div>
+              <input type="text"
+                     class="form-control"
+                     id="sorte"
+                     ng-model="search.sorte"
+                     placeholder="Artikelnummer"
+              />
+              </select>
+            </div>
+          </div>
+
+          <div class="form-group" >
+            <div class="input-group">
+              <div class="input-group-addon"><span class="fa fa-search" ></span ></div>
+              <input type="text"
+                     class="form-control"
+                     id="search"
+                     ng-model="search.$"
+                     placeholder="Suche..."
+              />
+            </div >
+          </div>
+        <div class="form-group">
+          <button class="btn btn-default" ng-click="search = undefined">Alle anzeigen</button>
+        </div>
+      </form>
+    </div>
+  <div class="row">
+
+    <div class="col-md-3">
+
+      <div class="list-grop">
+
+        <a ng-href="#/" class="list-group-item">
+          Alle
+        </a>
+        <a ng-href="#/{{category | escape}}" ng-class="{active:category==cat.rubrik}" ng-repeat="category in cat.categories"  class="list-group-item">
+          {{category}}
+        </a>
+      </div>
+    </div>
+
+    <div class="col-md-9">
+      <table class="table table-bordered">
+        <thead>
+        <tr>
+
+          <th>Anwendung</th>
+
+          <th>Bild</th>
+          <th>
+            <div class="sortables">
+						  <span ng-click="cat.order = 'sorte'"
+                    class="fa fa-sort-asc" ></span >
+              <span ng-click="cat.order = '-sorte'"
+                    class="fa fa-sort-desc" ></span >
+            </div> Artikelnr
+          </th>
+          <th>Beschreibung</th>
+
+        </tr>
+        </thead>
+        <tbody>
+       <!-- <tr ng-repeat="product in filteredProducts =(cat.productList | filter:search | filter:{'sorte':sorte}: true  | filter:category | orderBy:cat.order)">
+-->
+        <tr ng-repeat="product in filteredProducts =(cat.productList | filter:search: strict|  filter:category | orderBy:cat.order)">
+
+          <td>
+            <div class="tear{{ drop }}"
+                 ng-repeat="drop in drops=(product.farbsystem | colordrops)">
+            </div>
+
+          </td>
+          <td>
+            <a href="#/product/{{product.artikel_nr}}">
+              <img ng-src="{{cat.imagePath + product.kleineBilder}}"
+            </a>
+          </td>
+          <td>{{product.sorte}}</td>
+         <!--<td>{{product.artikel_nr}}</td>-->
+          <td>{{product.beschreibung}}</td>
+          <!--<td>{{product.rubrik}}</td>-->
+
+        </tr>
+        </tbody>
+      </table>
+    </div>
+
+  </div> <!-- row -->
+
+
+

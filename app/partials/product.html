@@ -1,0 +1,84 @@
+<div class="col-md-3">
+
+  <div class="list-grop">
+
+    <a ng-href="#" class="list-group-item">
+      Alle
+    </a>
+    <a ng-href="#/{{category | escape}}"  ng-class="{active:category==prod.product.rubrik}" ng-repeat="category in prod.categories"  class="list-group-item">
+      {{category}}
+    </a>
+  </div>
+</div>
+
+<div class="col-md-9">
+
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <div class="row">
+        <div class="col-md-10">
+          <h1 class="nomargin">{{prod.product.beschreibung}}</h1>
+        </div>
+        <div class="col-md-2">
+          <h1 class="nomargin">{{prod.product.sorte}}</h1>
+        </div>
+      </div>
+    </div>
+    <div class="panel-body">
+      <div class="row">
+        <div class="col-md-10">
+          <img ng-src="{{prod.imagePath + prod.product.bilder}}" class="img-responsive">
+
+          <h4>Anwendung</h4>
+              <table class="table usage" >
+                <tbody>
+                   <tr ng-repeat="drop in drops=(prod.farbtropfen)">
+                     <td><div  class="tearxl{{ drop }}"></div></td>
+                     <td class="tear{{ drop }}text"></td>
+
+                   </tr>
+                 </tbody>
+               </table>
+
+          <h4 class="description">Produktbeschreibung</h4>
+          <p>{{prod.product.produktbeschreibung}}</p>
+        </div>
+        <div class="col-md-2 col-md-offset-0">
+          <!--<h4>Rubrik</h4>
+          <p>{{prod.product.rubrik}}</p>-->
+
+
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+
+           <table class="table table-bordered">
+               <thead>
+                 <tr>
+                   <th ng-show="prod.bestellgroesse">Bestellgröße</th>
+                   <td ng-repeat="item in prod.bestellgroesse track by $index">{{item}}</td>
+                 </tr>
+               </thead>
+               <tbody>
+                 <tr>
+                   <th ng-show="prod.durchmesser">Durchmesser in mm</th>
+                   <td ng-repeat="item in prod.durchmesser track by $index">{{item}}</td>
+                 </tr>
+               <tr>
+                 <th ng-show="prod.haarlaenge">Haarlänge in mm</th>
+                 <td ng-repeat="item in prod.haarlaenge track by $index">{{item}}</td>
+               </tr>
+               <tr>
+                 <th ng-show="prod.ve">VE</th>
+                 <td ng-repeat="item in prod.ve track by $index">{{item}}</td>
+               </tr>
+               </tbody>
+             </table>
+
+
+        </div>
+      </div><!-- row -->
+    </div>
+  </div><!-- PANEL -->
+</div>

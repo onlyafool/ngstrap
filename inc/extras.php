@@ -27,3 +27,4 @@ function ngstrap_body_classes( $classes ) {
 	return $classes;
 }
 add_filter( 'body_class', 'ngstrap_body_classes' );
+

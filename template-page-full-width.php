@@ -31,5 +31,5 @@ get_header(); ?>
 	</div><!-- #primary -->
 
 <?php
-
+home_scripts();
 get_footer();
